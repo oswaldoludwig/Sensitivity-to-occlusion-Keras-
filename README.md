@@ -1,4 +1,4 @@
-# Sensitivity to-occlusion using Keras
+# Sensitivity to occlusion using Keras
 This is script evaluates the sensitivity of the VGG-16 pre-trained model to occlusion using Keras.
 The idea is to check if the ConvNet is truly identifying the location of the object in the image by systematically occluding different portions of the image with a white square and evaluating the classifier output, see more details in Section 4.2 of: https://arxiv.org/pdf/1311.2901.pdf
 This script reuses pieces of code belonging to this other script (which uses Caffe instead Keras):
