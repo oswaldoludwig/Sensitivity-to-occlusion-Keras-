@@ -7,7 +7,7 @@ https://github.com/BUPTLdy/occlusion_experiments/blob/master/Occlusion_experimen
 Set the path to the VGG-16 model weights in Line 22 of "occlusion_sensitivity.py". The VGG-16 file can be downloaded from: https://gist.github.com/baraldilorenzo/07d7802847aaad0a35d3
 
 Set the the path to your image in Line 24 of "occlusion_sensitivity.py".
-It's possible to evaluate the VGG-16 sensitivity to a specific object. To do so, you have to change the variable "index_object" in Line 130 of "occlusion_sensitivity.py" by the index of the class of interest. The VGG-16 output indices can be found here:
+It's possible to evaluate the VGG-16 sensitivity to a specific class of objects. To do so, you have to change the variable "index_object" in Line 130 of "occlusion_sensitivity.py" by the index of the class of interest. The VGG-16 output indices can be found here:
 https://github.com/HoldenCaulfieldRye/caffe/blob/master/data/ilsvrc12/synset_words.txt
 
 You can run this code in GPU by typing: THEANO_FLAGS=mode=FAST_RUN,device=gpu,floatX=float32,exception_verbosity=high python occlusion_sensitivity.py
