@@ -1,5 +1,5 @@
 # Sensitivity to occlusion using Keras
-This code evaluates the sensitivity of VGG-16 to occlusion using Keras. The idea is to check if the ConvNet is truly identifying the location of the object in the image by systematically occluding different portions of the image with a white square and evaluating the net output, see more details in Section 4.2 of: https://arxiv.org/pdf/1311.2901.pdf
+This code evaluates the sensitivity of VGG-16 to occlusion using Keras. The idea is to check if the ConvNet is truly identifying the location of the object in the image by systematically occluding different portions of the image with a white square and evaluating the net output. For more details, see Section 4.2 of: https://arxiv.org/pdf/1311.2901.pdf
 
 This code reuses pieces of code from: https://github.com/BUPTLdy/occlusion_experiments/blob/master/Occlusion_experiments.ipynb (which uses Caffe instead of Keras).
 
